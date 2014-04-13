@@ -27,15 +27,15 @@ body
 	font-size: 100px;
 	text-align: right;
 	text-shadow: 4px 4px 8px #808080;
-	margin-top: 40px;
-	margin-right: 30px;
+	margin-top: 50px;
+	margin-right: 20px;
 }
 
 #lorem
 {
 	margin-top: 40px;
 	margin-left: 820px;
-	width: 300px;
+	width: 400px;
 	font-size: 16px;
 }
 
