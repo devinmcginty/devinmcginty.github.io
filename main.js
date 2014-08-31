@@ -4,7 +4,6 @@ var MINUTE = SECOND * 60;
 var HOUR = MINUTE * 60;
 var DAY = HOUR * 24;
 var LATLNG = new google.maps.LatLng(40.043736, -75.182705);
-var MARKER_ICON = "./marker.png";
 var COLOR_MAP = [
     "#72FE95",
     "#74FEF8",
@@ -112,7 +111,6 @@ function initializeMap() {
     var marker = new google.maps.Marker({
         position: LATLNG,
         map: map,
-        icon: MARKER_ICON,
         animation: google.maps.Animation.BOUNCE
     });
 }
