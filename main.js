@@ -15,7 +15,7 @@ var COLOR_MAP = [
 
 var END_DATE = "Sep 20, 2014 15:00:00";
 
-var targetDate = new Date("Aug 31, 2014 00:21:00").getTime();
+var targetDate = new Date(END_DATE).getTime();
 
 function initializeMap() {
     var coolMap = [
