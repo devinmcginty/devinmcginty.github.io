@@ -1,7 +1,9 @@
 /*
-
-There is only a bird here.
-
+  ____________________________
+ /                            \
+| Hello. I am Javascript bird. |
+ \_________   ________________/
+           |/
       ,,
     ('v')
    ((   ))
