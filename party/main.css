@@ -1,0 +1,83 @@
+@import url('http://fonts.googleapis.com/css?family=Press+Start+2P');
+
+
+html, body {
+    overflow: hidden;
+    font-size: 80px;
+    font-family: "Press Start 2P";
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+#body {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+#mapCanvas {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.invisible {
+    display: none;
+}
+
+.unselect {
+    cursor: default;
+    -webkit-touch-callout: none;
+      -webkit-user-select: none;
+       -khtml-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+}
+
+.location {
+    color: black;
+    background-color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+#multiday {
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    z-index: 200;
+    max-height: 100%;
+    text-align: right;
+    color: white;
+    width: 100%;
+    height: 100%;
+    text-shadow: 0 0 30px #ff1c00;
+}
+
+#lastday {
+    padding: 150px 0 0 0;
+    position: absolute;
+    top: 10%;
+    height: 300px;
+    width: 100%;
+    max-width: 100%;
+    color: white;
+    text-shadow: 0 0 20px white;
+    background-image:
+        linear-gradient(
+            rgba(255, 0, 0, 0),
+            rgba(255, 80, 65, 0.4),
+            rgba(255, 0, 0, 0.8),
+            rgba(200, 0, 0, 0.4),
+            rgba(255, 0, 0, 0)
+        );
+    text-align: center;
+}
+
+#partytime {
+    font-size: 40px;
+}
+
+
